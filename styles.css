@@ -1,0 +1,259 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+header{
+    background-image: url(./images/showcase.jpeg);
+    background-position: relative;
+    width:100%;
+    min-height: 120vh;
+    background-size: cover;
+    ;
+}
+
+
+.welcome-text-box{
+    position:absolute;
+    top:60%;
+    left:65%;
+    transform: translate(-50%,-50%);
+    align-items: center;
+    text-align: center;
+    width:100%;
+    color: rgb(116, 17, 17);
+    
+}
+
+.welcome-text-box h1{
+    font-size: 5rem;
+    
+}
+
+.welcome-text-box h3{
+    font-size: 2rem;
+}
+
+header nav{
+    background-color: rgb(37, 34, 34);
+    width: 100%;
+    height: 50px;
+    margin:0;
+
+}
+
+
+.main-nav-flex{
+    display:flex;
+    width:100%;
+    list-style: none;
+    /* padding:10px 20px; */
+    align-content: center;
+    align-items: center;
+    font-weight: bold;
+    }
+
+.main-nav-flex li{
+    padding: 15px;
+}
+
+
+main{
+    position:relative;
+    /* background-color: blue; */
+}
+.main-nav a{
+    text-decoration: none;
+    color:white;
+    padding-top: 10px;
+
+}
+
+
+.intro{
+    padding:20px 10px;
+    background-color: rgb(37, 34, 34);
+    width:100%;
+    height: auto;
+    text-align: center;
+    color:white;
+}
+
+
+.intro h2{
+    font-size: 3rem;
+    margin:2rem auto;
+}
+
+
+.intro h3{
+    font-size: 2rem;
+    margin:2rem auto;
+}
+
+
+
+.intro p{
+    font-size: 1.2rem;
+    margin:2rem 3rem;
+    font-weight: lighter;
+    line-height: 1.6;
+}
+
+.intro a{
+    text-decoration: none;
+    color:white;
+    font-size: 1rem;
+    background-color: red;
+    padding:15px;
+}
+
+.intro a:hover{
+    opacity: 60%;
+}
+
+.intro img{
+    width:100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.readmore{
+    background-color: rgb(248, 247, 245);
+    text-align: center;
+    padding: 5rem 3.5rem;
+}
+
+.readmore h3{
+    font-size: 2rem;
+}
+
+.readmore p{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.readmore a{
+    background:darkblue;
+    color:white;
+    text-decoration: none;
+    padding:15px;
+        
+}
+
+.readmore a:hover{
+    opacity:85%;
+}
+
+#mockup2{
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.sky{
+    background-image: url(./images/night-sky.jpeg);
+    width:100%;
+    min-height: 150vh;
+    background-size: cover;
+    position:relative;
+}
+
+.sky-text-box{
+    position: absolute;
+    color:white;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin: auto;
+    padding:4rem;
+    width:100%;
+}
+
+
+.sky-text-box h3{
+    font-size: 3rem;
+    margin:20px auto;
+}
+
+
+
+.sky-text-box p{
+    font-size: 1.3rem;
+    margin:20px auto;
+}
+
+.giftcard{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding:3rem;
+    text-align: left;
+    
+}
+
+
+.giftcard img{
+    width:100%;
+}
+
+.card-text{
+    display:block;
+    margin: auto;
+    line-height: 1.6;
+    padding-left: 20px;  
+}
+
+.card-text h4{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+
+.bottom-nav{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: left;
+    font-size: 14px;
+    gap: 10%;
+    background-color: rgb(37, 34, 34);
+    width: 100%;
+    padding: 0 5rem;
+    color: white;
+}
+
+
+.bottom-nav h4{
+    padding-top: 20px;
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+    
+}
+
+
+
+
+footer ul li {
+    text-decoration: none;
+    list-style: none;
+    line-height: 1.6;
+    
+}
+
+
+footer ul{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+
+.copyrights{
+    width:100%;
+    background-color: rgb(71, 61, 61);
+    text-align: center;
+    color:white;
+    padding:20px;
+    font-size: 1.1rem;
+}
